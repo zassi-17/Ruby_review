@@ -2,13 +2,12 @@ fruits =["apple","banana","orange"]
 
 puts fruits[1]
 
+puts "名前は何ですか？"
 
-puts "数字を入力してください"
+name = gets.to_s
 
-score = gets.to_i
-
-if score > 60
-  puts "合格"
-else
-  puts "不合格"
+def hallo(name)
+  "こんにちは、"+"#{name}さん"
 end
+
+puts hallo(name)
