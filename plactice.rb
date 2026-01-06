@@ -1,8 +1,14 @@
-puts "計算を始めます。"
-puts "2つの値を入力してください。"
+fruits =["apple","banana","orange"]
 
-numberA = gets.to_i
-numberB = gets.to_i
+puts fruits[1]
 
-puts "計算結果を出力します。"
-puts "#{numberA} * #{numberB} = #{numberA * numberB}"
+
+puts "数字を入力してください"
+
+score = gets.to_i
+
+if score > 60
+  puts "合格"
+else
+  puts "不合格"
+end
